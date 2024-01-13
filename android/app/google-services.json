@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "226556785229",
+    "project_id": "propertytrader-899e0",
+    "storage_bucket": "propertytrader-899e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226556785229:android:612518f788c083df36e204",
+        "android_client_info": {
+          "package_name": "com.example.propertytrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226556785229-vnchi27slq8d725gna9jq71euk1nan5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWt-CqcwCAxHDBib1g2yKDJf7Z0i50OG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226556785229-vnchi27slq8d725gna9jq71euk1nan5e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "226556785229-2jh5gh7nd2ik40684fjdvt7csbd5cavg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.propertytrader"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
