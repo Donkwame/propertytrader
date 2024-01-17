@@ -110,7 +110,7 @@ class _LoginState extends State<Login> {
             const Text(
               'Let Login',
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 12, 12, 12),
               ),
