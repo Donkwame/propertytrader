@@ -1,3 +1,4 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
@@ -41,9 +42,21 @@ class Swap1 extends StatelessWidget {
             onPressed: () => signUserOut(context),
             icon: const Icon(Icons.logout),
           ),
+          
         ],
       ),
-      body: const Center(child: Text("LOGGED IN")),
+      
+
+    
+     bottomNavigationBar: CurvedNavigationBar(
+      backgroundColor:  const Color.fromARGB(162, 94, 10, 228).withOpacity(0.5) ,
+      color: const Color.fromARGB(255, 243, 240, 249),
+      animationDuration: const Duration(milliseconds: 300),
+      items: const [
+      Icon(Icons.home),
+      Icon(Icons.apps),
+      Icon(Icons.favorite),
+     ]) ,
     );
   }
 }

@@ -115,11 +115,11 @@ class _LoginSignupState extends State<LoginSignup> {
                             // Handle the first button action
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => const Login()),
+                              MaterialPageRoute(
+                                  builder: (context) => const Login()),
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            foregroundColor: Colors.white,
                             backgroundColor: const Color.fromARGB(
                                     255, 114, 33, 243)
                                 .withOpacity(0.5), // Set text color to white
@@ -146,17 +146,14 @@ class _LoginSignupState extends State<LoginSignup> {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(
-                                  builder: (context) =>  SignUp()),
+                              MaterialPageRoute(builder: (context) => SignUp()),
                             );
                           },
                           style: ElevatedButton.styleFrom(
                             foregroundColor: Colors.white,
                             backgroundColor:
                                 const Color.fromARGB(255, 48, 5, 132),
-                            side: const BorderSide(
-                                color: Colors.white,
-                                width: 2), // Set button background color
+                            // Set button background color
                             fixedSize: const Size(200, 50),
                           ),
                           child: const Text(

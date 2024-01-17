@@ -26,7 +26,6 @@ class _LoginState extends State<Login> {
   }
 
   // Function to check login status
-  
 
   // Function to handle user login
   Future<void> logUserIn() async {
@@ -38,7 +37,7 @@ class _LoginState extends State<Login> {
       );
 
       // Perform sign in
-      await FirebaseAuth.instance.signInWithEmailAndPassword(
+      FirebaseAuth.instance.signInWithEmailAndPassword(
         email: emailController.text,
         password: passwordController.text,
       );
@@ -119,12 +118,16 @@ class _LoginState extends State<Login> {
             const SizedBox(height: 25),
             // welcome message
             const Center(
-              child: Text(
-                'Welcome back, you\'ve been missed',
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                ),
+              child: Wrap(
+                children: [
+                  Text(
+                    'Welcome back, you\'ve been missed',
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               ),
             ),
             const SizedBox(height: 25),

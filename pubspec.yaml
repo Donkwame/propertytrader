@@ -47,6 +47,7 @@ dependencies:
   shared_preferences: ^2.0.10
   google_sign_in: ^6.2.1
   cloud_firestore: ^4.14.0
+  curved_navigation_bar: ^1.0.3
 
 dev_dependencies:
   flutter_test:
